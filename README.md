@@ -23,7 +23,40 @@ For a home renovation company, the tool is used to create design proposals for c
 
 Scenario 3:Architectural Firm
 
-In an architectural firm, the tool is utilized to quickly generate preliminary design concepts for clients based on their input. Architects and clients collaborate by specifying requirements such as room layout, design aesthetics, and functional needs. The Custom Home Design Creator produces detailed design drafts that can be refined further. This accelerates the design process and provides a clear starting point for discussions, similar to how initial sketches are used in architectural planning.
+In an architectural firm, the tool is utilized to quickly generate preliminary design concepts for clients based on their input. Architects and clients collaborate by specifying requirements such as room layout, design aesthetics, and functional needs. The Custom Home Design Creator produces detailed design drafts that can be refined further. This accelerates the design process
+ and provides a clear starting point for discussions, similar to how initial sketches are used in architectural planning.
+
+ 
+![unnamed](https://github.com/user-attachments/assets/e3f33b94-fd4f-4805-9901-1ea49f4a017f)
 
 
+**Project Flow**
+1. User Input via Streamlit UI:
+
+Users input a prompt (e.g., topic, keywords) and specify parameters such as the desired length, tone, or style through the Streamlit interface.
+
+2. Backend Processing with Generative AI Model:
+
+The input data is sent to the backend, where it interfaces with the selected Generative AI model (e.g., GPT-4, Gemini, etc.).
+
+The model processes the input, generating text based on the specified parameters and user input.
+
+3. Content Generation:
+
+The AI model autonomously creates content tailored to the user’s specifications. This could be a blog post, poem, article, or any other form of text.
+
+4. Return and Display Generated Content:
+
+The generated content is sent back to the frontend for display on the Streamlit app.
+
+The app presents the content to the user in an easily readable format.
+
+5. Customization and Finalization:
+
+Users can further customize the generated content through the Streamlit UI if desired. This might include editing text, adjusting length, or altering tone.
+
+6. Export and Usage:
+
+
+Once satisfied, users can export or copy the content for their use, such as saving it to a file or directly sharing it.
 
